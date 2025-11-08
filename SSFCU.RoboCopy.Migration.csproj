@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+
+    <!-- === Branding & Version Info === -->
+    <Company>Noe Tovar – MBA 2025</Company>
+    <Product>SSFCU Migration Utility</Product>
+    <Description>SSFCU Robo Copy Migration Tool for secure data transfer and logging.</Description>
+    <Copyright>© 2025 Noe Tovar. All Rights Reserved. noetovar.com</Copyright>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Version>1.0.0</Version>
+
+    <!-- === Icon & Single-File Settings === -->
+    <ApplicationIcon>ssfcu-logo.ico</ApplicationIcon>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Embed your SSFCU icon inside the executable -->
+    <EmbeddedResource Include="ssfcu-logo.ico" />
+  </ItemGroup>
+
+</Project>

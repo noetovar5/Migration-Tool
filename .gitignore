@@ -1,0 +1,38 @@
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## VS Code
+.vscode/
+
+## Rider / VS
+.idea/
+*.DotSettings.user
+
+## NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+## Publish outputs
+publish/
+app.publish/
+
+## Other
+*.tmp
+*.bak
+*.swp
+
+## Single-file publish artifacts
+*.pdb
+*.deps.json
+*.runtimeconfig.json
+*.dll
+*.xml
